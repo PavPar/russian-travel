@@ -1,0 +1,17 @@
+.header__lang {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    justify-self: flex-end;
+    align-self: flex-end;
+    grid-column: -1;
+    margin-left: 18px;
+}
+
+.header__lang:first-of-type{
+    grid-column: -2;
+    margin-left: 0;
+}
