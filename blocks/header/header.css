@@ -6,6 +6,6 @@
     margin: 30px auto 48px auto;
     
     display: grid;    
-    border: 1px red solid;
+    /* border: 1px red solid; */
     grid-template-columns: repeat(3,1fr);
 }
