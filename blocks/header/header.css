@@ -3,9 +3,8 @@
 
 .header{
     width: calc(100% - 128px * 2);
-    margin: 30px auto 48px auto;
-    
+    max-width: 1184px;
+    margin: 30px auto 48px auto;    
     display: grid;    
-    /* border: 1px red solid; */
     grid-template-columns: repeat(3,1fr);
 }
