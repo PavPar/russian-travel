@@ -2,8 +2,15 @@
 @import url(../place/__paragraph/place__paragraph.css);
 @import url(../place/__title/place__title.css);
 @import url(../place/__website/place__website.css);
+@import url(../place/__website/__url-heading/place__website__url-heading.css);
+@import url(../place/__website/__url/place__website__url.css);
 
 .place{
-    
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    max-width: 984px;
+    grid-template-areas: 
+    "title url"
+    "image para";
 }
 
