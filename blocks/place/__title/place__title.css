@@ -1,5 +1,6 @@
-.place__title{
-    grid-row: 1;
-    grid-column: 1;
+.place__title {
     grid-area: title;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 65px;
 }

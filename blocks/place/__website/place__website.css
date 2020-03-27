@@ -1,5 +1,10 @@
-.place__website{
-    grid-column: -1;
-    grid-row: 1;
+@import url(./__url/place__website__url.css);
+@import url(./__url-heading/place__website__url-heading.css);
+
+.place__website {
     grid-area: url;
+    align-self: end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
