@@ -6,3 +6,9 @@
     max-width: 1184px;
     margin-bottom: 102px;
 }
+
+@media screen and (max-width: 1024px) {
+    .comments {
+        max-width: 928px;
+    }
+}

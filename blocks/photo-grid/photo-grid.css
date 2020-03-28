@@ -1,4 +1,6 @@
 @import url(../photo-grid/__item/photo-grid__item.css);
+
+
 .photo-grid {
     margin-top: 102px;
     width: 100%;
@@ -9,4 +11,11 @@
     gap: 16px;
     justify-content: space-between;
     margin-bottom: 72px;
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        max-width: 928px;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

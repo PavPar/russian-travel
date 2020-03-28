@@ -1,5 +1,6 @@
 .video__container {
-    display: grid;
-    column-gap: 18px;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 323px;
 }

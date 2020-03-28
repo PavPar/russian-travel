@@ -16,7 +16,7 @@
 @import url(../blocks/cover-bg/cover-bg.css);
 @import url(../blocks/footer/footer.css);
 
-section {
+section, header, footer {
     border: 1px red solid;
 }
 
