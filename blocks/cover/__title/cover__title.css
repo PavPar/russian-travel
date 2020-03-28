@@ -6,3 +6,21 @@
     margin-top: 270px;
     margin-bottom: 130px;
 }
+
+@media screen and (max-width:1024px) {
+    .cover__title {
+        margin-top: 211px;
+        margin-bottom: 80px;
+        max-width: 720px;
+        ;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cover__title {
+        margin-top: 165px;
+        margin-bottom: 45px;
+        max-width: 720px;
+        ;
+    }
+}

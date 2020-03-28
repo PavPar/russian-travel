@@ -4,3 +4,15 @@
     background-size: 1184px 594px;
     width: 100%;
 }
+
+@media screen and (max-width:768px) {
+    .cover-bg{
+        background-size: 768px 500px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .cover-bg{
+        background-size: 1024px 562px;
+    }
+}
