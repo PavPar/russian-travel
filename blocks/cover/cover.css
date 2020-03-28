@@ -10,8 +10,14 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
     .cover{
-        max-width: 1045px;
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover{
+        max-width: 768px;
     }
 }

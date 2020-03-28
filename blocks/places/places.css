@@ -3,10 +3,17 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 122px;
+    max-width: 984px;
 }
 
 @media screen and (max-width:1024px){
     .places{
         max-width: 928px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .places{
+        max-width: 720px;
     }
 }

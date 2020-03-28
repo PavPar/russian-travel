@@ -16,13 +16,13 @@
 @import url(../blocks/cover-bg/cover-bg.css);
 @import url(../blocks/footer/footer.css);
 
-section, header, footer {
+/* section, header, footer {
     border: 1px red solid;
 }
 
 div{
     border: 1px green solid;
-}
+} */
 
 @font-face {
     font-family: "Inter";
