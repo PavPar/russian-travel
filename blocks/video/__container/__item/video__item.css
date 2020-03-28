@@ -1,8 +1,12 @@
 .video__item {
-    /* width: 583px; */
     width: calc((100% / 2) - 9px);
-    height: auto;
     border: 0;
     border: 1px red solid;
     background-color: aqua;
+}
+
+@media screen and (max-width:1024px) {
+    .video__item{
+        max-height: 288px;
+    }
 }
