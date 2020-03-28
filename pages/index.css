@@ -27,7 +27,8 @@ div{
 @font-face {
     font-family: "Inter";
     font-weight: normal;
-    src: url("../fonts/Inter/Inter-Light.otf");
+    font-style: normal;
+    src: url("../fonts/Inter/Inter-ExtraLight.otf");
 }
 
 @font-face {
