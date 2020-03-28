@@ -1,20 +1,23 @@
 .video__item {
     width: calc((100% / 2) - 9px);
-    border: 0;
-    border: 1px red solid;
     background-color: aqua;
-    max-height: 323px;
+    height: 323px;
 }
 
 @media screen and (max-width:1024px) {
-    .video__item{
-        max-height: 288px;
+    .video__item {
+        height: 288px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .video__item {
+        height: 200px;
     }
 }
 
 @media screen and (max-width:375px) {
-    .video__item{
-        max-height: 288px;
-        width: 100%;
+    .video__item {
+        height: 288px;
     }
 }
