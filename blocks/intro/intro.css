@@ -10,3 +10,9 @@
     max-width: 985px;
     width: 100%;
 }
+
+@media screen and (max-width:1024px){
+    .intro{
+        max-width: 928px;
+    }
+}
