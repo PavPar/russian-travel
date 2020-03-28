@@ -1,5 +1,25 @@
-.comments__container{
+.comments__container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 19px;
+}
+
+@media screen and (max-width:768px) {
+    .comments__container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-row-gap: 48px;
+        column-gap: 19px;
+        max-width: 382px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .comments__container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-row-gap: 48px;
+        column-gap: 19px;
+        max-width: 382px;
+    }
 }

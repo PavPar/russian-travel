@@ -22,3 +22,9 @@
         max-width: 720px;
     }
 }
+
+@media screen and (max-width:375px){
+    .intro{
+        max-width: 343px;
+    }
+}

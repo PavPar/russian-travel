@@ -28,3 +28,10 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .photo-grid {
+        max-width: 343px;
+        display: flex;
+        flex-direction: column;
+    }
+}
