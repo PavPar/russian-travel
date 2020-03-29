@@ -5,3 +5,10 @@
     max-width: 640px;
     margin-bottom: 72px;
 }
+
+@media screen and (max-width:375px) {
+    .content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
