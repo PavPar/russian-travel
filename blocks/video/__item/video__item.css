@@ -1,14 +1,21 @@
 .video__item {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
     margin-right: 18px;
-    max-width: 583px;
-    width: 100%;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 30px;
-    position: relative;
+    overflow: hidden;
+    max-width: 583px;
+    width: 100%;
+    transition: box-shadow .5s ease-out; 
 }
 
+.video__item:hover{
+    box-shadow: 0 0 50px blueviolet;
+}
 
 @media screen and (min-width:768px){
     .video__item:last-of-type {
