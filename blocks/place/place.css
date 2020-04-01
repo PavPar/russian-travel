@@ -1,28 +1,28 @@
-@import url(../place/__image/place__image.css);
-@import url(../place/__paragraph/place__paragraph.css);
-@import url(../place/__title/place__title.css);
-@import url(../place/__website/place__website.css);
-@import url(../place/__website/__url-heading/place__website__url-heading.css);
-@import url(../place/__website/__url/place__website__url.css);
+@import url(./__image/place__image.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__title/place__title.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__url/place__url.css);
+@import url(./__website/place__website.css);
+@import urL(./__paragraph-list/place__paragraph-list.css);
 
-.place{
+.place {
     margin-bottom: 72px;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-areas: 
+    "title url" 
+    "image para";
+    grid-template-columns: repeat(2,1fr);
     column-gap: 40px;
     row-gap: 60px;
-    width: 100%;
-    grid-template-areas: 
-    "title url"
-    "image para";
 }
 
-.place:last-child{
+.place:last-child {
     margin-bottom: 0;
 }
 
-@media screen and (max-width:375px){
-    .place{
+@media screen and (max-width:375px) {
+    .place {
         max-width: 375px;
         display: flex;
         flex-direction: column;
@@ -32,8 +32,8 @@
     }
 }
 
-@media screen and (max-width:320px){
-    .place{
+@media screen and (max-width:320px) {
+    .place {
         max-width: 288px;
         display: flex;
         flex-direction: column;
