@@ -1,0 +1,13 @@
+.cover__link{
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow .5s ease-in-out;
+}
+
+.cover__link:hover{
+    box-shadow: 0 0 25px orangered;
+}

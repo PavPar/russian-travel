@@ -1,13 +1,15 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-
+@import url(./__link/cover__link.css);
 
 
 .cover{
     max-width: 1184px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    background-image: url(../../images/cover__cover-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     width: 100%;
 }
 
