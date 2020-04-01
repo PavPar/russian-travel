@@ -1,0 +1,7 @@
+.footer__link_basis-list{
+    margin-right: 18px;
+}
+
+.footer__link:last-of-type {
+    margin-right: 0;
+}

@@ -1,6 +1,7 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
-
+@import url(./__link-list/footer__link-list.css);
+@import url(./__link/_basis/footer__link_basis-list.css);
 footer{
     margin-top: 160px;
     margin-bottom: 48px;
