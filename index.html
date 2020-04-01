@@ -103,7 +103,7 @@
                     <li class="place__url-heading">URL</li>
                     <li><a class="place__url" href="#">National Geographic</a></li>
                 </ul>
-                <img class="place__image" src="./images/place__image-2.png">
+                <img class="place__image" src="./images/place__image-2.png" alt="Кольский">
                 <div class="place__paragraph-list">
                     <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
                         которой на юг — тайга, а
@@ -127,7 +127,7 @@
                     <li class="place__url-heading">URL</li>
                     <li><a class="place__url" href="#">Facebook</a></li>
                 </ul>
-                <img class="place__image" src="./images/place__image-3.png">
+                <img class="place__image" src="./images/place__image-3.png" alt="Алтай">
                 <div class="place__paragraph-list">
                     <p class="place__paragraph">Алтай — одно из красивейших мест в России. В первую очередь из-за гор:
                         если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы
@@ -148,7 +148,7 @@
                     <li><a class="place__url" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                     </li>
                 </ul>
-                <img class="place__image" src="./images/place__image-4.png">
+                <img class="place__image" src="./images/place__image-4.png" alt="Зимний Байкал">
                 <div class="place__paragraph-list">
                     <p class="place__paragraph">
                         Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой
@@ -168,7 +168,7 @@
                     <li class="place__url-heading">URL</li>
                     <li><a class="place__url" href="http://vodlozero.ru/">http://vodlozero.ru/</a></li>
                 </ul>
-                <img class="place__image" src="./images/place__image-5.png">
+                <img class="place__image" src="./images/place__image-5.png" alt="Карелия">
                 <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
                     сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров —
                     леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым
@@ -184,26 +184,35 @@
         </section>
 
         <section class="video">
-            <h2 class="content-title">В глубины Земли  и в дальний космос</h2>
+            <h2 class="content-title">В глубины Земли и в дальний космос</h2>
             <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся
                 фундаментальные
                 исследования</p>
             <div class="video__container">
+                <!-- 
+                Я могу ошибаться , но вроде video__item - не является отдельным блоком, потому что он встречается еще раз только в 
+                блоке photo-grid, где каждый элемент item обладает другим размером. Кроме того в макете он вроде прописан
+                как __item - т.е как элемент блока.  
+                -->
                 <div class="video__item">
-                    <img class="video__icon_play" alt="Play" src="./images/__icon_play.svg">
+                    <img class="video__icon" alt="Play" src="./images/__icon_play.svg">
                     <p class="video__duration">6:30</p>
                     <p class="video__title">Colors of Kamchatka</p>
                     <p class="video__subtitle">Director: Pavel Karykhalin</p>
-                    <a href="https://vimeo.com/81106671"><img src="./images/__video__cover_1.png" alt="Камчатка"
-                            class="video__item-bg"></a>
+                    <a target="_blank" class="video__link" href="https://vimeo.com/81106671">
+                        <img src="./images/__video__cover_1.png" alt="Камчатка" class="video__item-bg">
+                    </a>
                 </div>
                 <div class="video__item">
-                    <img class="video__icon_play" alt="Play" src="./images/__icon_play.svg">
+
+                    <img class="video__icon" alt="Play" src="./images/__icon_play.svg">
                     <p class="video__duration">24:45</p>
                     <p class="video__title">Обсерватория | Observatory</p>
                     <p class="video__subtitle">Director: Alexander Khudokon </p>
-                    <a href="https://vimeo.com/290675450"><img src="./images/__video__cover_2.png" alt="Обсерватория"
-                            class="video__item-bg"></a>
+                    <a class="video__link" href="https://vimeo.com/290675450" target="_blank">
+                        <img src="./images/__video__cover_2.png" alt="Обсерватория" class="video__item-bg">
+                    </a>
+
                 </div>
             </div>
         </section>
