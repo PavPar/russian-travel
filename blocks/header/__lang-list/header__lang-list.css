@@ -4,7 +4,6 @@
     display: flex;
     margin-left: auto;
     list-style: none;
-    margin-right: 24px;
 }
 
 @media screen and (max-width: 375px) {
