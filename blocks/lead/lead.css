@@ -3,7 +3,7 @@
 @import url(./__subitile/lead__subitile.css);
 @import url(./__title/lead__title.css);
 .lead {
-    max-width: 985px;
+    max-width: 984px;
     width: 100%;
     margin: auto;
     display: flex;
@@ -13,7 +13,7 @@
     /* overflow: hidden; */
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
     .lead {
         max-width: 928px;
     }
