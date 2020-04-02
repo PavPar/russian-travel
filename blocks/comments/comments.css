@@ -5,6 +5,8 @@
     align-items: center;
     max-width: 1184px;
     margin-bottom: 102px;
+    box-sizing: border-box;
+    padding: 0 48px 0 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,6 +18,7 @@
 @media screen and (max-width: 768px) {
     .comments {
         max-width: 660px;
+        padding: 0 16px 0 16px;
     }
 }
 
