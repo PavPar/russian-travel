@@ -4,7 +4,7 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__url/place__url.css);
 @import url(./__website/place__website.css);
-@import urL(./__paragraph-list/place__paragraph-list.css);
+@import urL(./__list/place__list.css);
 .place {
     margin-bottom: 72px;
     box-sizing: border-box;
