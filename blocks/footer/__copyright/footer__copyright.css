@@ -1,14 +1,13 @@
 .footer__copyright {
-    align-self: flex-end;
-    margin-left: auto;
     font-size: 14px;
     line-height: 20px;
+    margin: 48px auto 0 0;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (min-width:768px) {
     .footer__copyright {
-        margin: 48px auto 0 0;
-        font-size: 14px;
-        line-height: 20px;
+        align-self: flex-end;
+        margin: 0;
+        margin-left: auto;
     }
 }

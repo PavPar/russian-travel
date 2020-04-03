@@ -2,32 +2,32 @@
 @import url(./__link/footer__link.css);
 @import url(./__link-list/footer__link-list.css);
 @import url(./__link/_basis/footer__link_basis-list.css);
-footer{
-    margin-top: 160px;
-    margin-bottom: 48px;
-    margin-right: auto;
-    margin-left: auto;
+footer {
     display: flex;
-    max-width: 1184px;
+    flex-direction: column;
+    margin: 64px 0 24px 0;
+    box-sizing: border-box;
+    width: 100%;
+   
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
     .footer {
-        max-width: 928px;
+        flex-direction: row;
+        margin: 160px auto 48px auto;
+        padding: 0 24px 0 24px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1024px) {
     .footer {
-        max-width: 722px;
+        padding: 0 48px 0 48px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 1280px) {
     .footer {
-        flex-direction: column;
-        margin-top: 64px;
-        margin-bottom: 24px;
-        margin-left: 16px;
+        padding: 0;
+        max-width: 1184px;
     }
 }
