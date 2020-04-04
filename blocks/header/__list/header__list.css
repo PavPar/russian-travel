@@ -1,15 +1,15 @@
 .header__list {
-    font-size: 24px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 96.82%;
     display: flex;
     margin-left: auto;
     list-style: none;
     margin-top: 17px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 768px) {
     .header__list {
-        font-size: 18px;
-        line-height: 96.82%;
+        font-size: 24px;
+        line-height: 23px;
     }
 }

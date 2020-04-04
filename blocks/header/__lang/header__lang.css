@@ -1,8 +1,13 @@
-.header__lang{
-    margin-right: 18px;
+.header__lang {
+    margin-right: 16px;
 }
 
-.header__lang:last-of-type{
+.header__lang:last-of-type {
     margin-right: 0;
 }
 
+@media screen and (min-width:768px) {
+    .header__lang {
+        margin-right: 18px;
+    }
+}
