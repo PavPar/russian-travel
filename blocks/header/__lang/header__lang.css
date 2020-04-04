@@ -1,12 +1,8 @@
 .header__lang{
     margin-right: 18px;
-    transition: box-shadow .2s ease-out;
 }
 
 .header__lang:last-of-type{
     margin-right: 0;
 }
 
-.header__lang:hover{
-    box-shadow: 0 2px 1px #ffffff;
-}

@@ -1,0 +1,8 @@
+.header__lang_type_normal {
+    text-decoration: none;
+    transition: box-shadow .2s ease-out;
+}
+
+.header__lang_type_normal:hover {
+    box-shadow: 0 2px 1px #ffffff;
+}

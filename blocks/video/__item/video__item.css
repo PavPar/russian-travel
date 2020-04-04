@@ -9,6 +9,9 @@
     transition: box-shadow .5s ease-out;
     box-sizing: border-box;
     padding: 16px;
+    background-color: #000000;
+    opacity: 0.5;
+    border-radius: 5px;
 }
 
 .video__item:hover {
@@ -39,7 +42,7 @@
 }
 
 @media screen and (min-width:768px) {
-    .video__item{
+    .video__item {
         margin-right: 16px;
         width: 352px;
     }
@@ -49,7 +52,7 @@
 }
 
 @media screen and (min-width:1024px) {
-    .video__item{
+    .video__item {
         width: 456px;
         height: 288px;
         margin-right: 18px;
@@ -61,9 +64,8 @@
 }
 
 @media screen and (min-width:1280px) {
-    .video__item{
+    .video__item {
         width: 583px;
         height: 323px;
     }
-   
 }
