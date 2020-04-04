@@ -1,0 +1,11 @@
+.intro__text_type-bold {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+@media screen and (min-width:375px) {
+    .intro__text_type-bold{
+        line-height: 20px;
+    }
+}
