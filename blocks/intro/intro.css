@@ -49,7 +49,14 @@
 
 @media screen and (min-width:1024px) {
     .intro {
-        max-width: 984px;
+        max-width: 928px;
         padding: 0;
+    }
+}
+
+
+@media screen and (min-width:1280px) {
+    .intro {
+        max-width: 984px;
     }
 }

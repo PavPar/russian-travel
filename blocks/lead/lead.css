@@ -31,6 +31,12 @@
 
 @media screen and (min-width: 1024px) {
     .lead {
+        max-width: 928px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead {
         max-width: 984px;
     }
 }

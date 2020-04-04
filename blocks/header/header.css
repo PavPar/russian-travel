@@ -6,10 +6,11 @@
 
 .header {
     /* width: calc(100% - 128px * 2); */
-    min-width: 1184px;
+  
     margin: 30px auto 48px auto;
     display: flex;
     box-sizing: border-box;
+    width: 100%;
 }
 
 @media screen and (max-width: 320px) {
@@ -31,14 +32,14 @@
 @media screen and (min-width: 375px) {
     .header {
         min-width: 343px;
-        max-width: 720px;
+        /* max-width: 720px; */
     }
 }
 
 @media screen and (min-width: 768px) {
     .header {
         min-width: 720px;
-        max-width: 1184px;
+        /* max-width: 1184px; */
         padding-left: 24px;
         padding-right: 24px;
     }
@@ -46,6 +47,14 @@
 
 @media screen and (min-width: 1024px) {
     .header {
+        /* max-width: 1184px; */
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (min-width:1280px){
+    .header{
         max-width: 1184px;
         padding: 0;
     }

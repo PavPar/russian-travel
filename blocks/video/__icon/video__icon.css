@@ -2,4 +2,5 @@
     width: 41px;
     height: 41px;
     position: relative;
+    z-index: 2;
 }
