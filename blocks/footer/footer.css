@@ -1,7 +1,7 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
 @import url(./__list/footer__list.css);
-@import url(./__link/_basis/footer__link_basis-list.css);
+@import url(./__row/footer__row.css);
 @import url(./__nav/footer__nav.css);
 
 footer {

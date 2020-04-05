@@ -1,6 +1,7 @@
 .place__list{
     grid-area: para;
     align-content: center;
+    align-self: start;
 }
 
 @media screen and (max-width:768px){
