@@ -1,7 +1,18 @@
 .footer__link_basis-list{
+    margin: 0;
     margin-right: 18px;
 }
 
-.footer__link:last-of-type {
+.footer__link_basis-list:last-of-type {
     margin-right: 0;
+}
+
+@media screen and (max-width:768px){
+    .footer__link_basis-list{
+        margin: 0;
+        margin-bottom: 32px;
+    }
+    .footer__link_basis-list:last-of-type {
+        margin-bottom: 0;
+    }
 }
