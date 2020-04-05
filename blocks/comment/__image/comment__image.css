@@ -4,7 +4,7 @@
     margin-bottom: 42px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     .comment__image{
         order: 1;
         margin-bottom: 16px;

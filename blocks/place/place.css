@@ -21,13 +21,13 @@
 
 @media screen and (min-width:320px) {
     .place {
-        /* max-width: 375px; */
+        max-width: 320px;
     }
 }
 
 @media screen and (min-width:375px) {
     .place {
-        /* max-width: 720px; */
+        max-width: 375px;
     }
 }
 
@@ -41,6 +41,7 @@
         row-gap: 40px;
         /* max-width: 720px; */
         margin-bottom: 81px;
+        max-width: 720px;
     }
 }
 
@@ -49,10 +50,9 @@
         column-gap: 32px;
         row-gap: 60px;
         margin-bottom: 72px;
-        /* max-width: 928px; */
+        max-width: 928px;
     }
 }
-
 
 @media screen and (min-width:1280px) {
     .place {

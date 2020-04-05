@@ -10,7 +10,7 @@
 @media screen and (max-width:768px){
     .footer__link_basis-list{
         margin: 0;
-        margin-bottom: 32px;
+        margin-bottom: 18px;
     }
     .footer__link_basis-list:last-of-type {
         margin-bottom: 0;
