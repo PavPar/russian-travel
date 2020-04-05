@@ -12,6 +12,7 @@
     .comments {
         margin-left: 48px;
         margin-right: 48px;
+        max-width: 1184px;
     }
 }
 
@@ -26,12 +27,14 @@
         max-width: 660px;
         margin-left: 16px;
         margin-right: 16px;
+        margin-bottom: 48px;
     }
 }
 
 @media screen and (max-width:375px) {
     .comments {
-        max-width: 343px;
+        max-width: 288px;
+        margin-bottom: 64px;
     }
 }
 

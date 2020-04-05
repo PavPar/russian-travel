@@ -1,22 +1,26 @@
 .content-title {
     font-weight: 900;
-    font-size: 72px;
-    line-height: 78px;
+    font-size: 32px;
+    line-height: 35px;
     text-align: center;
-    max-width: 800px;
-    margin-bottom: 48px;
+    max-width: 335px;
+    margin-bottom: 16px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
     .content-title {
         font-size: 42px;
         line-height: 46px;
+        margin-bottom: 24px;
+        max-width: 660px;
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (min-width:1024px) {
     .content-title {
-        font-size: 32px;
-        line-height: 35px;
+        font-size: 72px;
+        line-height: 78px;
+        margin-bottom: 48px;
+        max-width: 928px;
     }
 }
