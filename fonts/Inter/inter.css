@@ -5,7 +5,8 @@
   font-display: swap;
   src: url("Inter-Thin.woff2?v=3.12") format("woff2"),
        url("Inter-Thin.woff?v=3.12") format("woff"),
-       url("Inter-Thin.ttf") format("ttf");
+       url("Inter-Thin.ttf") format("ttf"),
+       url("Inter-Thin.otf") format("otf");
 }
 @font-face {
   font-family: 'Inter';
@@ -14,7 +15,8 @@
   font-display: swap;
   src: url("Inter-ThinItalic.woff2?v=3.12") format("woff2"),
        url("Inter-ThinItalic.woff?v=3.12") format("woff"),
-       url("Inter-ThinItalic.ttf") format("ttf");
+       url("Inter-ThinItalic.ttf") format("ttf"),
+       url("Inter-ThinItalic.otf") format("otf");
 }
 
 @font-face {
@@ -24,7 +26,8 @@
   font-display: swap;
   src: url("Inter-ExtraLight.woff2?v=3.12") format("woff2"),
        url("Inter-ExtraLight.woff?v=3.12") format("woff"),
-       url("Inter-ExtraLight.ttf") format("ttf");
+       url("Inter-ExtraLight.ttf") format("ttf"),
+       url("Inter-ExtraLight.otf") format("otf");
 }
 @font-face {
   font-family: 'Inter';
@@ -33,7 +36,8 @@
   font-display: swap;
   src: url("Inter-ExtraLightItalic.woff2?v=3.12") format("woff2"),
        url("Inter-ExtraLightItalic.woff?v=3.12") format("woff"),
-       url("Inter-ExtraLightItalic.ttf") format("ttf");
+       url("Inter-ExtraLightItalic.ttf") format("ttf")
+       url("Inter-ExtraLightItalic.ttf") format("otf");
 }
 
 @font-face {
@@ -43,7 +47,8 @@
   font-display: swap;
   src: url("Inter-Light.woff2?v=3.12") format("woff2"),
        url("Inter-Light.woff?v=3.12") format("woff"),
-       url("Inter-Light.ttf") format("ttf");
+       url("Inter-Light.ttf") format("ttf"),
+       url("Inter-Light.otf") format("otf");
 }
 @font-face {
   font-family: 'Inter';
@@ -52,7 +57,8 @@
   font-display: swap;
   src: url("Inter-LightItalic.woff2?v=3.12") format("woff2"),
        url("Inter-LightItalic.woff?v=3.12") format("woff"),
-       url("Inter-LightItalic.ttf") format("ttf");
+       url("Inter-LightItalic.ttf") format("ttf"),
+       url("Inter-LightItalic.otf") format("otf");
 }
 
 @font-face {
@@ -62,7 +68,8 @@
   font-display: swap;
   src: url("Inter-Regular.woff2?v=3.12") format("woff2"),
        url("Inter-Regular.woff?v=3.12") format("woff"),
-       url("Inter-Regular.ttf") format("ttf");
+       url("Inter-Regular.ttf") format("ttf"),
+       url("Inter-Regular.otf") format("otf");
 }
 @font-face {
   font-family: 'Inter';
@@ -71,7 +78,8 @@
   font-display: swap;
   src: url("Inter-Italic.woff2?v=3.12") format("woff2"),
        url("Inter-Italic.woff?v=3.12") format("woff"),
-       url("Inter-Italic.ttf") format("ttf");
+       url("Inter-Italic.ttf") format("ttf"),
+       url("Inter-Italic.otf") format("otf");
 }
 
 @font-face {
@@ -81,7 +89,8 @@
   font-display: swap;
   src: url("Inter-Medium.woff2?v=3.12") format("woff2"),
        url("Inter-Medium.woff?v=3.12") format("woff"),
-       url("Inter-Medium.ttf") format("ttf");
+       url("Inter-Medium.ttf") format("ttf"),
+       url("Inter-Medium.otf") format("otf");
 }
 @font-face {
   font-family: 'Inter';
@@ -90,7 +99,8 @@
   font-display: swap;
   src: url("Inter-MediumItalic.woff2?v=3.12") format("woff2"),
        url("Inter-MediumItalic.woff?v=3.12") format("woff"),
-       url("Inter-MediumItalic.ttf") format("ttf");
+       url("Inter-MediumItalic.ttf") format("ttf"),
+       url("Inter-MediumItalic.otf") format("otf");
 }
 
 @font-face {
@@ -100,7 +110,8 @@
   font-display: swap;
   src: url("Inter-SemiBold.woff2?v=3.12") format("woff2"),
        url("Inter-SemiBold.woff?v=3.12") format("woff"),
-       url("Inter-SemiBold.ttf") format("ttf");
+       url("Inter-SemiBold.ttf") format("ttf"),
+       url("Inter-SemiBold.otf") format("otf");
 }
 @font-face {
   font-family: 'Inter';
@@ -109,7 +120,8 @@
   font-display: swap;
   src: url("Inter-SemiBoldItalic.woff2?v=3.12") format("woff2"),
        url("Inter-SemiBoldItalic.woff?v=3.12") format("woff"),
-       url("Inter-SemiBoldItalic.ttf") format("ttf");
+       url("Inter-SemiBoldItalic.ttf") format("ttf"),
+       url("Inter-SemiBoldItalic.otf") format("otf");
 }
 
 @font-face {
@@ -119,7 +131,8 @@
   font-display: swap;
   src: url("Inter-Bold.woff2?v=3.12") format("woff2"),
        url("Inter-Bold.woff?v=3.12") format("woff"),
-       url("Inter-Bold.ttf") format("ttf");
+       url("Inter-Bold.ttf") format("ttf"),
+       url("Inter-Bold.otf") format("otf");
 }
 @font-face {
   font-family: 'Inter';
@@ -128,7 +141,8 @@
   font-display: swap;
   src: url("Inter-BoldItalic.woff2?v=3.12") format("woff2"),
        url("Inter-BoldItalic.woff?v=3.12") format("woff"),
-       url("Inter-BoldItalic.ttf") format("ttf");
+       url("Inter-BoldItalic.ttf") format("ttf"),
+       url("Inter-BoldItalic.otf") format("otf");
 }
 
 @font-face {
@@ -138,7 +152,8 @@
   font-display: swap;
   src: url("Inter-ExtraBold.woff2?v=3.12") format("woff2"),
        url("Inter-ExtraBold.woff?v=3.12") format("woff"),
-       url("Inter-ExtraBold.ttf") format("ttf");
+       url("Inter-ExtraBold.ttf") format("ttf"),
+       url("Inter-ExtraBold.otf") format("otf");
 }
 @font-face {
   font-family: 'Inter';
@@ -147,7 +162,8 @@
   font-display: swap;
   src: url("Inter-ExtraBoldItalic.woff2?v=3.12") format("woff2"),
        url("Inter-ExtraBoldItalic.woff?v=3.12") format("woff"),
-       url("Inter-ExtraBoldItalic.ttf") format("ttf");
+       url("Inter-ExtraBoldItalic.ttf") format("ttf"),
+       url("Inter-ExtraBoldItalic.otf") format("otf");
 }
 
 @font-face {
@@ -157,7 +173,8 @@
   font-display: swap;
   src: url("Inter-Black.woff2?v=3.12") format("woff2"),
        url("Inter-Black.woff?v=3.12") format("woff"),
-       url("Inter-Black.ttf") format("ttf");;
+       url("Inter-Black.ttf") format("ttf"),
+       url("Inter-Black.otf") format("otf");;
 }
 @font-face {
   font-family: 'Inter';
@@ -166,7 +183,8 @@
   font-display: swap;
   src: url("Inter-BlackItalic.woff2?v=3.12") format("woff2"),
        url("Inter-BlackItalic.woff?v=3.12") format("woff"),
-       url("Inter-BlackItalic.ttf") format("ttf");
+       url("Inter-BlackItalic.ttf") format("ttf"),
+       url("Inter-BlackItalic.otf") format("otf");
 }
 
 /* -------------------------------------------------------
