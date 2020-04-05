@@ -7,7 +7,7 @@
     margin-right: 0;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .footer__link_basis-list{
         margin: 0;
         margin-bottom: 18px;
